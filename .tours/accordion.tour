@@ -1,0 +1,32 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Accordion",
+  "steps": [
+    {
+      "file": "src/App.js",
+      "description": "Import Accordion component",
+      "line": 2
+    },
+    {
+      "file": "src/App.js",
+      "description": "Accordion component has three props:\nTitle: string\nContent: string\nBorder: boolean",
+      "line": 7
+    },
+    {
+      "file": "src/Accordion.js",
+      "description": "We import classnames package to allow for ternary logic in styles",
+      "line": 2
+    },
+    {
+      "file": "src/Accordion.js",
+      "description": "Set state of actively open/closed accordion with useState() hook.",
+      "line": 5
+    },
+    {
+      "file": "src/Accordion.js",
+      "description": "- Use boolean ternary to control border style of accordion\n- setIsActive to toggle each row",
+      "line": 7
+    }
+  ],
+  "ref": "f96f55b5e16940fedb79633fe4befdcb6a7e7110"
+}
