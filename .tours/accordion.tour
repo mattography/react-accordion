@@ -4,12 +4,12 @@
   "steps": [
     {
       "file": "src/App.js",
-      "description": "Import Accordion component",
+      "description": "Import `Accordion` component",
       "line": 2
     },
     {
       "file": "src/App.js",
-      "description": "Accordion component has three props:\nTitle: string\nContent: string\nBorder: boolean",
+      "description": "Accordion component has three props:\nTitle: `string`\nContent: `string`\nBorder: `boolean`",
       "line": 7
     },
     {
@@ -19,12 +19,12 @@
     },
     {
       "file": "src/Accordion.js",
-      "description": "Set state of actively open/closed accordion with useState() hook.",
+      "description": "Set state of actively open/closed accordion with `useState()` hook.",
       "line": 5
     },
     {
       "file": "src/Accordion.js",
-      "description": "- Use boolean ternary to control border style of accordion\n- setIsActive to toggle each row",
+      "description": "- Use boolean ternary to control border style of accordion\n- `setIsActive` to toggle each row",
       "line": 7
     }
   ],
